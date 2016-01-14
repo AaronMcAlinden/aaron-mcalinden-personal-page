@@ -1,0 +1,161 @@
+a {
+  text-decoration: none;
+}
+
+#wrapper  {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+/*========header======*/
+
+h1  {
+  font-size: 5.063em;
+  line-height: 1em;
+  margin: 0;
+  font-weight: bold;
+  padding-top: 40px;
+ 
+}
+
+h2  {
+  font-size: 3.375em;
+  line-height: 1em;
+  margin: 0;
+  font-weight: normal;
+  
+}
+
+h3  {
+  font-size: 1.5em;
+  line-height: 2em;
+  margin: 0;
+  font-weight: normal; 
+}
+
+h1, h2, h3  {
+  font-family: 'Montserrat', 'helvetica', sans-serif;
+  color: #7fffd4;
+}
+
+.wrap {
+  background:  
+   linear-gradient(
+      rgba(50, 50, 50, 0.4), 
+      rgba(50, 50, 50, 0.4)
+    ), url(../images/backgroundimage.jpg) no-repeat center center fixed;
+  background-size: cover;
+  padding: 100px 0;
+
+}
+
+
+
+
+/*========nav======*/
+
+nav {
+  background: #333;
+  width: 100%;
+  padding: .5em 0em .5em 0em;
+  
+}
+
+nav ul li {
+  display: inline;
+  margin: 20px;
+}
+
+nav a {
+  color:#fff;
+}
+
+a:hover {
+  color: #ff6666;
+}
+
+/*=====layout======*/
+
+.layer {
+    width: 100%;
+    height: 100%;
+    padding: 0 0 18em 0; 
+    margin: 8em 0;
+  text-align: center;
+}
+
+footer {
+  clear: both;
+  display: inline-block;
+}
+
+footer p  {
+  font-size: .75em;
+}
+
+/*=====images======*/
+
+.socicon  {
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+}
+
+.socicon:hover  {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+#mug  {
+  display: inline-block;
+  width:100px;
+  height:100px;
+  margin: auto;  
+}
+
+#mac  {
+  display: inline-block;
+  width:120px;
+  height:120px;
+  margin: auto;
+}
+
+.icon:hover  {
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+        transform: scale(1.4);
+}
+
+/*=====main-body-typography======*/
+
+
+section {
+  padding: 40px 0 ;
+}
+
+#wrapper h2  {
+  margin: 20px auto;
+  width: 90%;
+  border-bottom: 4px solid #7fffd4;
+}
+
+.h22  {padding-bottom: 20px;}
+
+
+p {
+  line-height: 1.75em;
+  width: 90%;
+  color: #777;
+  margin:auto;
+  padding-top: 10px;
+  
+}
+
+
+
+
+
+
