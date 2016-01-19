@@ -61,13 +61,13 @@ nav {
    
   width: 100%;
   background: #1E2A33;
-  margin: 0 auto;
+  margin: 0;
   position:absolute;
   top: 0;
 }
 
 nav ul  {
-  
+  padding: 0;
   
 }
 
